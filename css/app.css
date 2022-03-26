@@ -1,0 +1,109 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    font-family: 'Proxima-Nova-Regular';
+}
+
+a, .btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.content {
+    padding: 0px !important
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.mat-layout-grid-cell {
+    position: relative;
+}
+
+.mat-layout-grid {
+    height: 100vh
+}
+
+.mat-layout-grid-inner {
+    justify-content: center;
+    display: flex !important
+}
+
+.validation-message {
+    color: red;
+}
+
+.mat-layout-grid {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 0px !important
+}
+
+.logo {
+    width: 40%
+}
+
+.title {
+    font-family: 'Proxima Nova Bold !important'
+}
+
+h6 {
+    font-family: 'Proxima Nova Regular !important';
+    font-weight: bold;
+}
+
+.demo-mat-card {
+    max-width: 95%;
+    box-shadow: none !important;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.head-title {
+    font-family: 'Proxima Nova Semibold';
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+@font-face {
+    font-family: 'Proxima-Nova-Regular';
+    src: local('../fonts/proximanova-regular.otf'), url('../fonts/proximanova-regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/proximanova-bold.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/proximanova-semibold.otf');
+}
